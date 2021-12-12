@@ -23,15 +23,15 @@ struct context_t
 
 	const float max_desired_velocity{0.55f};
 
-	const float cohesion_range{75.f};
-	const float alignment_range{50.f};
-	const float separation_range{20.f};
-	const float targeting_range{200.f};
+	const float cohesion_range{75.0f};
+	const float alignment_range{50.0f};
+	const float separation_range{20.0f};
+	const float targeting_range{0.0f};
 
 	const float cohesion_force{0.5f};
 	const float alignment_force{0.75f};
 	const float separation_force{3.0f};
-	const float targeting_force{0.5f};
+	const float targeting_force{0.0f};
 
 	context_t(Vector2f pos, Vector2f vel, float dt, boid_list boids, boid* self_);
 };
