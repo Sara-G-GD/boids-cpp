@@ -26,7 +26,7 @@ public: // constructors
 private: // member variables
 	Vector2f m_position;
 	Vector2f m_velocity;
-	float m_mass{100.0f};
+	float m_mass{1000.0f};
 
 private: // behaviours
 	behaviourList m_behaviours;
